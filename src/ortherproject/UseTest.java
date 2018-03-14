@@ -144,7 +144,7 @@ public class UseTest {
 			String st = "1234";
 			String sting = new String("1234");
 			
-			
+			//查询某个数在等差数列的位置
 			int X=100;
 			int y=0;
 			int n=1;

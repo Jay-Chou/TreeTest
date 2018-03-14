@@ -45,6 +45,10 @@ import java.io.Serializable;
 import java.sql.Connection;
 import java.sql.ResultSet;
 
+import com.trs.infra.util.CMyException;
+import com.trs.infra.util.database.DBType;
+import com.trs.infra.util.database.DBTypes;
+
 public class CDBText implements Serializable {
     public final static boolean JDBC_IS2 = false; // JDBC 版本是否为2.0
 
