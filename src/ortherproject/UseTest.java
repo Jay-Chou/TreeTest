@@ -146,7 +146,7 @@ public class UseTest {
 			
 			//查询某个数在等差数列的位置
 			int X=100;
-			int y=0;
+			int y;
 			int n=1;
 			while(true){
 				if(X>=(n*(n-1))*5&&X<=n*10+(n*(n-1))*5){
